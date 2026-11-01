@@ -7862,223 +7862,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_4ms_Connector:Jack_RCA_Stereo"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Jack_RCA_Stereo"
-				(at 0 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "PCM_4ms_Jack:RCA_Stereo_SwitchCraft-PJRAS2X1S"
-				(at 2.54 -11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
-				(at 0 -13.97 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Part Number" "PJRAS2X1S01AUX"
-				(at -0.635 -16.51 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "SwitchCraft"
-				(at -0.635 -18.415 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "audio jack receptacle mono phone headphone TS connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Jack*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Jack_RCA_Stereo_0_1"
-				(rectangle
-					(start -3.81 0)
-					(end -2.54 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -2.54 1.905)
-					(end 2.54 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0.635 -0.635) (xy 1.27 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jack_RCA_Stereo_1_1"
-				(pin passive line
-					(at -2.54 -6.35 90)
-					(length 3.81)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "T1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Jack_RCA_Stereo_2_1"
-				(pin passive line
-					(at -2.54 -6.35 90)
-					(length 3.81)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "T2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PCM_4ms_Power-symbol:GND"
 			(power global)
 			(pin_names
@@ -9179,6 +8962,195 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_fab:Conn_Jack_Stereo_3.5mm_SMD_RA"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_Jack_Stereo_3.5mm_SMD_RA"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_fab:Conn_Jack_Stereo_3.5mm_CUI_SJ-3523-SMT-TR"
+				(at -2.54 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.cuidevices.com/product/resource/sj-352x-smt.pdf"
+				(at -2.54 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "CONN JACK STEREO 3.5MM SMD R/A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "3.5mm Mini Plug Headphone Phone Jack Stereo TRS Connector Solder CUI Devices SJ-3523-SMT-TR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*CUI?SJ?3523?SMT?TR*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_Jack_Stereo_3.5mm_SMD_RA_0_1"
+				(rectangle
+					(start -5.08 3.81)
+					(end 5.08 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy -3.175 2.54) (xy -3.175 0) (xy -3.81 0) (xy -3.81 -2.54) (xy -2.54 -2.54) (xy -2.54 0)
+						(xy -3.175 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy -0.635 0) (xy -1.27 -0.635) (xy -1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 0.635 -2.54) (xy 0 -1.905) (xy -0.635 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Conn_Jack_Stereo_3.5mm_SMD_RA_1_1"
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10471,13 +10443,23 @@
 	)
 	(text "Entrada de Audio"
 		(exclude_from_sim no)
-		(at 527.558 192.024 0)
+		(at 528.828 190.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "1cae4684-d0da-4fd6-9a5d-73872eacfdb8")
+	)
+	(text "Columnas teclado matrical\n"
+		(exclude_from_sim no)
+		(at 427.228 159.512 90)
+		(effects
+			(font
+				(size 1.1938 1.1938)
+			)
+		)
+		(uuid "22495586-18de-4c19-b037-835d3aa0b0ba")
 	)
 	(text "Z80 simple computer"
 		(exclude_from_sim no)
@@ -10492,6 +10474,16 @@
 		)
 		(uuid "3ee44cf8-f928-49e0-8dd3-67a09ba771ec")
 	)
+	(text "01/11/2026"
+		(exclude_from_sim no)
+		(at 509.778 403.352 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "43571834-e49b-45fc-b0e1-91df29563bee")
+	)
 	(text "Salida de Audio\n"
 		(exclude_from_sim no)
 		(at 527.304 168.91 0)
@@ -10501,6 +10493,26 @@
 			)
 		)
 		(uuid "4c4c048a-920e-4169-af19-1c7dd33f8e27")
+	)
+	(text "Filas teclado matricial\n"
+		(exclude_from_sim no)
+		(at 427.228 135.89 90)
+		(effects
+			(font
+				(size 1.1938 1.1938)
+			)
+		)
+		(uuid "67df9f9c-b421-482b-94d3-1483ddf37fa1")
+	)
+	(text "1.0\n"
+		(exclude_from_sim no)
+		(at 567.944 403.352 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "911d2735-3c6f-4251-91a8-b8cb078e210f")
 	)
 	(junction
 		(at 265.43 147.32)
@@ -10809,6 +10821,16 @@
 			(type default)
 		)
 		(uuid "0086e877-1e49-4a86-963f-688d1fa6bdee")
+	)
+	(wire
+		(pts
+			(xy 417.83 148.59) (xy 425.45 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00d1ae3d-c247-45f3-942f-f03abff5a564")
 	)
 	(wire
 		(pts
@@ -11262,6 +11284,16 @@
 	)
 	(wire
 		(pts
+			(xy 417.83 146.05) (xy 425.45 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e1cf0c1-59b8-4fbb-906a-5c203b78896a")
+	)
+	(wire
+		(pts
 			(xy 430.53 322.58) (xy 430.53 288.29)
 		)
 		(stroke
@@ -11289,6 +11321,16 @@
 			(type default)
 		)
 		(uuid "226955cf-5606-4680-baaf-45fb20b8df6d")
+	)
+	(wire
+		(pts
+			(xy 425.45 146.05) (xy 425.45 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2429f6e1-452b-4fea-b946-cd7ceefb45ee")
 	)
 	(bus
 		(pts
@@ -11772,6 +11814,16 @@
 	)
 	(wire
 		(pts
+			(xy 417.83 125.73) (xy 425.45 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "587ecbd7-af73-4959-b943-57b7fef799b8")
+	)
+	(wire
+		(pts
 			(xy 209.55 118.11) (xy 185.42 118.11)
 		)
 		(stroke
@@ -11932,6 +11984,16 @@
 	)
 	(wire
 		(pts
+			(xy 425.45 148.59) (xy 425.45 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "673206a5-1270-47a7-84cb-e3c3ebdea2e6")
+	)
+	(wire
+		(pts
 			(xy 513.08 259.08) (xy 450.85 259.08)
 		)
 		(stroke
@@ -11949,6 +12011,16 @@
 			(type default)
 		)
 		(uuid "6779a7e6-f659-469c-bcdf-8d6db1a11e21")
+	)
+	(wire
+		(pts
+			(xy 506.73 175.26) (xy 506.73 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67dbc971-fabf-439b-837e-8779f2821d6b")
 	)
 	(wire
 		(pts
@@ -12259,6 +12331,16 @@
 			(type default)
 		)
 		(uuid "8465ee2f-d712-44aa-85df-66a4823ae44f")
+	)
+	(wire
+		(pts
+			(xy 417.83 168.91) (xy 425.45 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85bdc805-1443-44ce-ad6c-3ffcc14d9588")
 	)
 	(wire
 		(pts
@@ -12972,6 +13054,16 @@
 	)
 	(wire
 		(pts
+			(xy 506.73 151.13) (xy 506.73 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf63f499-9de8-4f25-8e77-e64dab99fdb6")
+	)
+	(wire
+		(pts
 			(xy 44.45 158.75) (xy 45.72 158.75)
 		)
 		(stroke
@@ -13679,114 +13771,6 @@
 			(project "Z80"
 				(path "/906d3c2c-cae4-4638-8819-b7d9358ec0c8"
 					(reference "N3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_4ms_Connector:Jack_RCA_Stereo")
-		(at 514.35 190.5 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0b0d0d3a-a631-4830-9a83-decdacc68f05")
-		(property "Reference" "J1"
-			(at 514.985 184.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Jack_RCA_Stereo"
-			(at 514.985 186.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_4ms_Jack:RCA_Stereo_SwitchCraft-PJRAS2X1S"
-			(at 511.81 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 514.35 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
-			(at 514.35 204.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "PJRAS2X1S01AUX"
-			(at 514.985 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "SwitchCraft"
-			(at 514.985 208.915 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "S1"
-			(uuid "f84a0002-3988-453d-b3fb-81ca854bbb71")
-		)
-		(pin "T1"
-			(uuid "2bc07118-9c60-4739-b714-1ae375006aba")
-		)
-		(pin "T2"
-			(uuid "edb07b74-869a-4abf-8916-bb0394282b91")
-		)
-		(pin "S2"
-			(uuid "be1ca078-9ba1-42da-a8dc-04cf57f08f68")
-		)
-		(instances
-			(project "Z80"
-				(path "/906d3c2c-cae4-4638-8819-b7d9358ec0c8"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -14930,7 +14914,7 @@
 			)
 		)
 		(property "Value" "Resistencia  18K"
-			(at 501.65 169.926 0)
+			(at 494.792 171.958 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14993,6 +14977,85 @@
 			(project "Z80"
 				(path "/906d3c2c-cae4-4638-8819-b7d9358ec0c8"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Power-symbol:GND")
+		(at 506.73 151.13 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3357651c-ae1f-4163-bc73-373ca7860721")
+		(property "Reference" "#PWR051"
+			(at 500.38 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 502.92 151.1299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 506.73 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 506.73 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 506.73 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fd082de5-5e90-4b1b-abe3-9b711580a7e4")
+		)
+		(instances
+			(project "Z80"
+				(path "/906d3c2c-cae4-4638-8819-b7d9358ec0c8"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -16869,7 +16932,7 @@
 			)
 		)
 		(property "Value" "Resistencia  18K"
-			(at 501.65 192.786 0)
+			(at 500.38 195.834 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17146,6 +17209,168 @@
 			(project "Z80"
 				(path "/906d3c2c-cae4-4638-8819-b7d9358ec0c8"
 					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_fab:Conn_Jack_Stereo_3.5mm_SMD_RA")
+		(at 514.35 190.5 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "621d14b3-e3ac-496a-b581-e8a6c33b8fd8")
+		(property "Reference" "J4"
+			(at 514.35 181.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_Jack_Stereo_3.5mm_SMD_RA"
+			(at 525.272 184.404 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_fab:Conn_Jack_Stereo_3.5mm_CUI_SJ-3523-SMT-TR"
+			(at 516.89 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.cuidevices.com/product/resource/sj-352x-smt.pdf"
+			(at 516.89 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CONN JACK STEREO 3.5MM SMD R/A"
+			(at 514.35 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8c5e1d44-3ea5-403b-9c46-91ff4083f9ea")
+		)
+		(pin "2"
+			(uuid "e7ca7cc7-d105-4680-b77f-e00e1c5402aa")
+		)
+		(pin "3"
+			(uuid "a79b9f21-7c10-4dcb-ab31-39e18b07fbb5")
+		)
+		(instances
+			(project "Z80"
+				(path "/906d3c2c-cae4-4638-8819-b7d9358ec0c8"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Power-symbol:GND")
+		(at 506.73 175.26 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "633b492c-cb62-4be5-a383-80d37ca6803a")
+		(property "Reference" "#PWR050"
+			(at 500.38 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 502.92 175.2599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 506.73 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 506.73 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 506.73 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6feb69a0-07d6-4bd1-8436-f7e292754bd8")
+		)
+		(instances
+			(project "Z80"
+				(path "/906d3c2c-cae4-4638-8819-b7d9358ec0c8"
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -17700,6 +17925,85 @@
 			(project "Z80"
 				(path "/906d3c2c-cae4-4638-8819-b7d9358ec0c8"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Power-symbol:GND")
+		(at 506.73 170.18 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77c31da3-252c-43b5-9970-169d69edd940")
+		(property "Reference" "#PWR052"
+			(at 500.38 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 502.92 170.1799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 506.73 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 506.73 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 506.73 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "29d6e0a8-bba8-4bc3-8659-6a767e86a317")
+		)
+		(instances
+			(project "Z80"
+				(path "/906d3c2c-cae4-4638-8819-b7d9358ec0c8"
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -20409,6 +20713,89 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_fab:Conn_Jack_Stereo_3.5mm_SMD_RA")
+		(at 514.35 167.64 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d54f9045-6880-4e53-9365-7b1385a78bb5")
+		(property "Reference" "J5"
+			(at 514.35 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_Jack_Stereo_3.5mm_SMD_RA"
+			(at 525.272 161.544 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_fab:Conn_Jack_Stereo_3.5mm_CUI_SJ-3523-SMT-TR"
+			(at 516.89 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.cuidevices.com/product/resource/sj-352x-smt.pdf"
+			(at 516.89 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CONN JACK STEREO 3.5MM SMD R/A"
+			(at 514.35 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5f7cc8ca-1f9e-4735-a730-27850e55e5d2")
+		)
+		(pin "2"
+			(uuid "2665c68f-9fd1-4bd0-b3ee-bdd144114cc2")
+		)
+		(pin "3"
+			(uuid "343d4c59-998a-48dc-91d3-854cccf21f11")
+		)
+		(instances
+			(project "Z80"
+				(path "/906d3c2c-cae4-4638-8819-b7d9358ec0c8"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_Generic:P,+5")
 		(at 320.04 82.55 0)
 		(unit 1)
@@ -20565,114 +20952,6 @@
 			(project "Z80"
 				(path "/906d3c2c-cae4-4638-8819-b7d9358ec0c8"
 					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_4ms_Connector:Jack_RCA_Stereo")
-		(at 514.35 167.64 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "dcd680d2-dc2f-499c-921d-3310de91d63c")
-		(property "Reference" "J3"
-			(at 514.985 161.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Jack_RCA_Stereo"
-			(at 514.985 163.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_4ms_Jack:RCA_Stereo_SwitchCraft-PJRAS2X1S"
-			(at 511.81 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 514.35 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
-			(at 514.35 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "PJRAS2X1S01AUX"
-			(at 514.985 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "SwitchCraft"
-			(at 514.985 186.055 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "S1"
-			(uuid "77add58a-62ed-4912-9b0f-153481040ab1")
-		)
-		(pin "T1"
-			(uuid "d4cf0cda-aec3-47ad-a1b4-61e91849bf0c")
-		)
-		(pin "T2"
-			(uuid "edb07b74-869a-4abf-8916-bb0394282b92")
-		)
-		(pin "S2"
-			(uuid "be1ca078-9ba1-42da-a8dc-04cf57f08f69")
-		)
-		(instances
-			(project "Z80"
-				(path "/906d3c2c-cae4-4638-8819-b7d9358ec0c8"
-					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -20870,6 +21149,85 @@
 			(project "Z80"
 				(path "/906d3c2c-cae4-4638-8819-b7d9358ec0c8"
 					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Power-symbol:GND")
+		(at 506.73 193.04 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3b48b1c-d41b-4090-8a43-7b3a14b3ff1a")
+		(property "Reference" "#PWR049"
+			(at 500.38 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 502.92 193.0399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 506.73 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 506.73 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 506.73 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "95aee96c-0eb3-44ca-aae6-e4c0143e3c09")
+		)
+		(instances
+			(project "Z80"
+				(path "/906d3c2c-cae4-4638-8819-b7d9358ec0c8"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
